@@ -23,6 +23,7 @@ require('lazy').setup({
   require 'kickstart/plugins/todo-comments',
   require 'kickstart/plugins/mini',
   require 'kickstart/plugins/treesitter',
+  require 'kickstart/plugins/neo-tree',
   require 'kickstart/plugins/harpoon',
   require 'kickstart/plugins/noice',
   require 'kickstart/plugins/fugative',
