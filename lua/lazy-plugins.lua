@@ -13,6 +13,7 @@
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+
   require 'kickstart/plugins/gitsigns',
   require 'kickstart/plugins/which-key',
   require 'kickstart/plugins/telescope',
@@ -30,6 +31,7 @@ require('lazy').setup({
   require 'kickstart/plugins/love2d',
   require 'kickstart/plugins/obsidian',
   require 'kickstart/plugins/yanky',
+  require 'kickstart/plugins/buffer-manager',
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
